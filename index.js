@@ -18,12 +18,6 @@ client.set("age", 26)
 client.set("hobies", JSON.stringify(["play games","sport"]))
 
 /* routing */
-
-// home
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
 // save data to redis
 app.get('/set/:key/:value', (req, res) => {
     const key = req.params.key;
