@@ -1,5 +1,5 @@
 # redis-irwansyah-betest
-Project ini digunakan untuk manipulasi data redis
+Project ini digunakan untuk manipulasi data redis, anda perlu mengatur property dari redis pada file `.env`(anda cukup mengubah host dan port sesuai dengan pengaturan perangkat anda).
 
 
 ## berikut path url redis
