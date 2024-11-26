@@ -21,3 +21,7 @@ method `GET`, mencari data redis({key} -> diganti dengan kunci)
 ### del cache redis
 `http://localhost:3000/del/{key}`
 method `GET`, menghapus data redis({key} -> diganti dengan kunci)
+
+
+
+@wan
